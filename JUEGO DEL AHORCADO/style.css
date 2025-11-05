@@ -1,0 +1,43 @@
+@font-face {
+    font-family: fuente;
+    src: url(Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+.info {
+margin: auto;
+max-width: 700px;
+display: flex;
+font-family: fuente;
+}
+
+.info .col {
+    flex: 1;
+}
+
+.ahorcado {
+background-image: url('Diseño-sin-título.png');
+width: 300px;
+height: 330px;
+background-color: red;
+}
+
+button {
+background-color: red;
+color: blue;
+font-weight: bold;
+border-radius: 20px;
+border: none;
+padding: 7px 15px;
+margin-top: 10px;
+}
+
+input {
+    padding: 7px;
+    border-radius: 6px;
+    border: 1px solid green
+}
+
+.hiddenWord {
+font-weight: bold;
+font-size: 2rem;
+}
