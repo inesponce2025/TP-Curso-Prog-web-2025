@@ -10,7 +10,7 @@ header {
     display: flex;
     align-items: center;
     gap: 10px;
-    background-color: pink;
+    background-color: #8ABEB9;
     color: rgba(85, 136, 10, 0.733);
     padding: 10px 0;
     height: 10vh;
@@ -30,7 +30,7 @@ main {
    padding: 20px;
    text-align: center;
    min-height: 75vh;
-   background-color:rgba(255, 219, 12, 0.733);
+   background-color: #B7E5CD;
    border-radius: 10px;
 } 
 
@@ -65,7 +65,7 @@ main .contenedor-juegos .juego {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: pink;
+    background-color: #8ABEB9;
     color: rgba(85, 136, 10, 0.733);
     height: 15vh;
     display: flex;

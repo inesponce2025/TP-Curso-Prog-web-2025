@@ -1,3 +1,9 @@
+body {
+   background-color: #A3B087;
+}
+
+
+
 @font-face {
     font-family: fuente;
     src: url(Roboto-VariableFont_wdth\,wght.ttf);
@@ -10,6 +16,14 @@ display: flex;
 font-family: fuente;
 }
 
+.color {
+   color: aqua;
+}
+
+.info{
+    color:aqua
+}
+
 .info .col {
     flex: 1;
 }
@@ -19,6 +33,7 @@ background-image: url('Diseño-sin-título.png');
 width: 300px;
 height: 330px;
 background-color: red;
+border-radius:  10px;
 }
 
 button {
@@ -40,4 +55,12 @@ input {
 .hiddenWord {
 font-weight: bold;
 font-size: 2rem;
+color:rgb(97, 138, 214);
+} 
+
+input{
+    background-color: #B7E5CD;
+}
+audio {
+    display:grid;
 }

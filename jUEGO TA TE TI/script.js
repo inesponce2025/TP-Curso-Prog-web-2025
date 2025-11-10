@@ -7,7 +7,7 @@ const btnPulsado = (e, pos) => {
    const color = turno % 2 ? 'red':'green';
    btn.style.backgroundColor = color;
    tablero[pos] = color;
-   if(haGanado())alert('enhorabuena player ' + color);
+   if(haGanado())alert('enhorabuena 🎉🎉🎉👍👍👍👍😊😊😊 player ' + color);
 }
 
 const haGanado = () => {

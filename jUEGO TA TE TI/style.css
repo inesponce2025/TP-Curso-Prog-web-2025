@@ -2,14 +2,19 @@
     font-family: fuente;
     src: url(Roboto-VariableFont_wdth\,wght.ttf);
 }
+body{
+    background-color: #4A70A9;
+}
 
 h1{
     font-family: fuente;
+    color: orangered;
 }
 button {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     background-color: yellow;
+    border-radius: 20px;
 }
 
 .container { 
