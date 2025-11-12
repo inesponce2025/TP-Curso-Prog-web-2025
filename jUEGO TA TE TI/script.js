@@ -2,6 +2,8 @@ let turno = 0;
 const tablero = [];
 
 const btnPulsado = (e, pos) => {
+   const audio = document.getElementById("audio2")
+   audio.play()
    turno ++;
    const btn = e.target;
    const color = turno % 2 ? 'red':'green';

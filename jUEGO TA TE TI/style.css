@@ -23,3 +23,7 @@ button {
     width: 600px;
     margin: auto;
 }
+
+.audio{
+    text-align: right;
+}

@@ -1,3 +1,8 @@
+*{
+    align-content: center;
+}
+
+
 body {
    background-color: #A3B087;
 }
@@ -61,6 +66,6 @@ color:rgb(97, 138, 214);
 input{
     background-color: #B7E5CD;
 }
-audio {
-    display:grid;
+.audio {
+    text-align: right;
 }
